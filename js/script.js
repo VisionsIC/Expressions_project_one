@@ -14,5 +14,5 @@ var myGPrice = prompt("How much is the cost of a gallon of gas at your local gas
 myFloat = parseFloat(myGPrice);
 var myGETY = myFloat * myGTY; // calculates the total of yearly cost of gas.
 //console.log(myGETY); //prints out to the console.
-var resultGETY = "You use roughly $" + myGTY + "Dollars of your hard earned cash per year to drive to work."; //Javascript displays the totals
+var resultGETY = "You use roughly $" + myGETY + "Dollars of your hard earned cash per year to drive to work."; //Javascript displays the totals
 alert(resultGETY);
