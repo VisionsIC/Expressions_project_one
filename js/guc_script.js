@@ -4,7 +4,7 @@ var myMPG = prompt("Google search your vehicle manufactorer to find out your MPG
 var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehicle's miles per gallon.
 //console.log(myGPD); //prints out to the console.
 var resultGPD = "You use roughly " + myGPD + " Gallons of gas per day to drive to work.";
-alert(resultGPD);
+alert(resultGPD); // outputs the result in an alert box in the browser.
 var myDays = prompt("How many days do you work per week? Please enter the total days.") * 50; //user enters the weekly amount of days they work.
 var myGTY = myDays * myGPD; // calculates the total of yealy days multiplied by the vehicle's gallons per day.
 //console.log(myGTY); //prints out to the console.
