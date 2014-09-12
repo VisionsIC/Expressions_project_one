@@ -9,7 +9,7 @@ var myDays = prompt("How many days do you work per week? Please enter the total 
 var myGTY = myDays * myGPD; // calculates the total of yealy days multiplied by the vehicle's gallons per day.
 //console.log(myGTY); //prints out to the console.
 var resultGTY = "You use roughly " + myGTY + " Gallons of gas per year to drive to work."; //Javascript displays the totals
-alert(resultGTY);
+alert(resultGTY); // outputs the result in an alert box in the browser.
 var myGPrice = prompt("How much is the cost of a gallon of gas at your local gas station? Enter the Price Per Gallon. $"); //user enters the price of gas per gallon.
 myFloat = parseFloat(myGPrice); // allows the user to input a number with a decimal value.
 var myGETY = myFloat * myGTY; // calculates the total of yearly cost of gas.
