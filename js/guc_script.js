@@ -15,5 +15,5 @@ myFloat = parseFloat(myGPrice);
 var myGETY = myFloat * myGTY; // calculates the total of yearly cost of gas.
 var myConvert = parseInt (myGETY); // changes the result to an intereger. 
 //console.log(myGETY); //prints out to the console.
-var resultGETY = "You use roughly $" + myConvert + " Dollars of your hard earned cash per year to drive to work."; //Javascript accumulates the totals
-alert(resultGETY);
+var resultGETY = "You use roughly $" + myConvert + " Dollars of your hard earned cash per year to drive to work."; //Javascript accumulates the totals.
+alert(resultGETY); // outputs the result in an alert box in the browser.
